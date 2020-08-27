@@ -1,0 +1,6 @@
+pytest-django
+requests
+django
+djangorestframework
+pandas
+djangorestframework-simplejwt
