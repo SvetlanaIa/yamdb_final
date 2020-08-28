@@ -132,7 +132,8 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.0/howto/static-files/
 
 STATIC_URL = '/static/'
-STATIC_ROOT = os.path.join(BASE_DIR, 'static/') # папка, в которой будет лежать статика
+# папка, в которой будет лежать статика
+STATIC_ROOT = os.path.join(BASE_DIR, 'static/')
 
 #STATICFILES_DIRS = (os.path.join(BASE_DIR, 'static/'),)
 
@@ -140,7 +141,7 @@ AUTH_USER_MODEL = 'users.User'
 
 REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES': [
-       'rest_framework_simplejwt.authentication.JWTAuthentication',
+        'rest_framework_simplejwt.authentication.JWTAuthentication',
     ],
     'DEFAULT_PERMISSION_CLASSES': [
         'rest_framework.permissions.IsAuthenticated',
