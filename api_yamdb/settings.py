@@ -135,7 +135,7 @@ STATIC_URL = '/static/'
 # папка, в которой будет лежать статика
 STATIC_ROOT = os.path.join(BASE_DIR, 'static/')
 
-#STATICFILES_DIRS = (os.path.join(BASE_DIR, 'static/'),)
+# STATICFILES_DIRS = (os.path.join(BASE_DIR, 'static/'),)
 
 AUTH_USER_MODEL = 'users.User'
 
