@@ -1,7 +1,7 @@
 #![Yamdb workflow](https://github.com/SvetlanaIa/yamdb_final/workflows/yamdbworkflow/badge.svg)
 ![Yamdb workflow](https://github.com/SvetlanaIa/yamdb_final/workflows/yamdb%20workflow/badge.svg)
 
-# api_yamdb
+# yamdb_final
 ## Проект по реализации API
 
 Создано с помощью Django REST Framework
