@@ -18,6 +18,5 @@ __pycache__/
 
 static/
 posts/static/
-templates/
 
 db.sqlite3
